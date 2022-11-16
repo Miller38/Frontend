@@ -14,7 +14,7 @@ export class AutenticacionService {
     console.log(user);
     console.log(password);
     return this.http.post<AutenticateModel>(this.endPoint,{
-      nombre:user,
+      usuario:user,
       clave:password.toString()
     },{
       headers: new HttpHeaders({})

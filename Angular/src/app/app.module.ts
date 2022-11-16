@@ -8,6 +8,11 @@ import { PiePaginaComponent } from './plantilla/pie-pagina/pie-pagina.component'
 import { InicioComponent } from './plantilla/inicio/inicio.component';
 import { ErrorComponent } from './plantilla/error/error.component';
 import { HttpClientModule } from '@angular/common/http';
+import { SobreNosotrosComponent } from './plantilla/sobre-nosotros/sobre-nosotros.component';
+import { ContactoComponent } from './plantilla/contacto/contacto.component';
+import { ServiciosComponent } from './plantilla/servicios/servicios.component';
+import { InformacionComponent } from './plantilla/informacion/informacion.component';
+import { UbicacionComponent } from './plantilla/ubicacion/ubicacion.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +20,12 @@ import { HttpClientModule } from '@angular/common/http';
     BarraNavegacionComponent,
     PiePaginaComponent,
     InicioComponent,
-    ErrorComponent
+    ErrorComponent,
+    SobreNosotrosComponent,
+    ContactoComponent,
+    ServiciosComponent,
+    InformacionComponent,
+    UbicacionComponent
   ],
   imports: [
     BrowserModule,
